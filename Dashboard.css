@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body{
+
+    background-color: #F0F6FF;
+}
+.container{
+    max-width: 100%;      
+    min-height: 100vh;    
+    margin: 120px 56px;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+
+.heading h3{
+    color: #D72638;
+    font-family: Nunito;
+    font-weight: bold;
+}
+
+.card1{
+    width: 100%;
+    height: 344px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    display: flex;
+    column-gap: 30px;
+}
+
+.CardTitle{
+    font-size: 26px;
+    white-space: nowrap;
+    font-weight:600 ;
+    font-family: Nunito;
+    color: #0069AB;
+}
+
+
+.edit_icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 2px 34px;
+    border-radius: 8px;
+    border:1px solid #434966 ;
+    background-color: transparent;
+    color: black;
+}
+
+.rowGap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infogroup p{
+    margin: 4px 0;
+}
+
+.infoGroup p.label {
+  margin-top: 12px; 
+  font-weight: 400; 
+  color: #82889C; 
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  margin-bottom: 0;
+}
+
+.text{
+    font-family: Inter;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.card{
+    width: 100%;
+    height: 344px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.25);
+    
+}
+
+.heading2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.heading2 img{
+    padding-bottom:5px ;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    margin-left: 8%;
+    font-family: Instrument Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.green{
+    color: #03833D;
+    margin-bottom: 0;
+}
+.red{
+    color: #FF0000;
+    margin-bottom: 0;
+}
+.blue{
+    color: #0069AB;
+}
+
+.row2{
+    margin-top: 5%;
+}
+
+.Icon{
+    font-family: Instrument Sans;
+    color: #D72638;
+    text-decoration: none;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.book_btn{
+    margin: 45px 0px;
+    padding: 13px 30px;
+    border-radius: 10px;
+    background-color: #D72638;
+}
